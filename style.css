@@ -15,6 +15,7 @@
     /*list-style: none;*/
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 
 }
 body{
@@ -37,7 +38,6 @@ body{
     position: relative;
 }
 header{
-    height: 10%;
     width: 100%;
     top: 0;
     right: 0;
@@ -47,7 +47,7 @@ header{
     align-items: center;
     z-index: 1000;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1px 1%;
     background-color: #002a5b70;
     transition: .3s;
 }
@@ -93,6 +93,7 @@ nav .hamb span:nth-child(2){
 nav .nav-list{
     list-style: none;
     padding-bottom: 1rem;
+    display: flex;
 }
 nav .nav-list a{
     margin: 1rem 0;
@@ -496,6 +497,7 @@ main.rows{
         padding: 100px;
         background: #01336b;
         margin-bottom: 5rem;
+        padding-top: 1rem;
 }
 
 .main-text{
@@ -564,6 +566,7 @@ main.rows{
 }
 
 /*projects*/
+
 .main-text1{
     text-align: center;
     padding: 50px;
@@ -639,6 +642,7 @@ main.rows{
     background-color: #002B5B;
     /*padding: 100px;*/
     height: 100vh;
+    padding-top: 7rem;
 }
 
 
@@ -994,6 +998,7 @@ main.rows{
 
     .contact{
         padding: 30px 30px;
+        padding-top: 7rem;
     }
 }
 
@@ -1018,6 +1023,7 @@ main.rows{
     .skill-icon{
         width: 90px;
     }
+    
 
 }
 
@@ -1025,5 +1031,16 @@ main.rows{
     .container6{
         grid-template-columns: 1fr;
     }
+    header{
+        height: 80px;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .logo{
+        padding-top: 7rem;
+    }
+
 }
 
