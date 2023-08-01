@@ -261,13 +261,13 @@ span{
 }*/
 
 .container1{
-    background-color: #01336b;
+    background-color: #002B5B;
 }
 
 .about-text{
     display: inline;
-    padding-right: 70vh;
-    margin: 50px;
+    padding-right: 90vh;
+    /*margin: 100%;*/
     justify-content: space-around;
 }
 
@@ -495,15 +495,15 @@ main.rows{
 
 #services{
         padding: 100px;
-        background: #01336b;
-        margin-bottom: 5rem;
-        padding-top: 1rem;
+       /* background: #01336b;
+        margin-bottom: 5px;
+        padding-top: 5rem;*/
 }
 
 .main-text{
     text-align: center;
     padding: 50px;
-    padding-top: 7rem;
+    padding-top: 5rem;
 }
 
 .main-text h2{
@@ -570,7 +570,7 @@ main.rows{
 .main-text1{
     text-align: center;
     padding: 50px;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .main-text1 h2{
@@ -630,7 +630,7 @@ main.rows{
 
 
 #projects{
-    background-color: #01336b;
+    
     padding: 50px;
 
 }
@@ -795,7 +795,8 @@ main.rows{
         font-size: 30px;
         line-height: 50px;
         font-family: 'Engagement', cursive;
-        padding:20px; 
+        padding:10px; 
+        margin-left: -16px;
         margin-bottom: 5rem;
     }
     nav .hamb{
@@ -870,18 +871,19 @@ main.rows{
     .hero-text{
         height: 25rem;
         padding: 45px 0px;
-        padding-right: 5rem;
+        padding-right: 50px;
     }
     .container .hero-text h1{
         font-size: 45px;
     }
     .container .col-2{
-        padding-right: 12rem;
+        padding-right: 8rem;
     }
     .container .col-2 .profile{
         height: 300px;
         width: 300px;
         border-radius: 50%;
+
     }
     .color-box{
         position: absolute;
@@ -1042,5 +1044,48 @@ main.rows{
         padding-top: 7rem;
     }
 
+}
+
+@media screen and (max-width:600px)
+{
+
+.main-text{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 50px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+}
+
+@media screen and (max-width:600px)
+{
+
+.projects-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 50px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+}
+
+@media screen and (max-width:600px)
+{
+
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 50px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 }
 
