@@ -47,7 +47,7 @@ header{
     align-items: center;
     z-index: 1000;
     justify-content: space-between;
-    padding: 1px 1%;
+    padding: 1px 4%;
     background-color: #002a5b70;
     transition: .3s;
 }
@@ -247,8 +247,8 @@ span{
     right: 0;
     top: 0;
     background: #8FE3CF;
-    height: 25%;
-    width: 45%;
+    height: 11%;
+    width: 44%;
     z-index: -1;
     transform: translateX(150px);
 }
@@ -301,6 +301,8 @@ span{
     line-height: 1.5;
     margin-bottom: 30px; 
     margin: 20px 0px 20px; 
+    text-align: justify;
+text-justify: inter-word;
 }
 
 .button{
@@ -328,11 +330,17 @@ span{
 }
 
 /*Resume*/
+#col{
+    padding: 100px;
+   /* background: #01336b;
+    margin-bottom: 5px;
+    padding-top: 5rem;*/
+}
 
 .container5{
     width: 100%;
     padding: 30% 10%;
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
 }
 
@@ -503,7 +511,7 @@ main.rows{
 .main-text{
     text-align: center;
     padding: 50px;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 .main-text h2{
