@@ -48,10 +48,10 @@ header{
     z-index: 1000;
     justify-content: space-between;
     padding: 1px 8%;
-    background-color: #151b17;
+    background-color: #191A19;
     /*background-color: #002B5B;*/
     transition: .3s;
-    box-shadow: 0 0.3rem 3rem #090c0a;
+    box-shadow: 0 0.2rem 2rem #090c0a;
 }
 
 header.sticky{
