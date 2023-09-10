@@ -140,11 +140,11 @@ nav .nav-list a:hover{
     padding-top: 15rem;
     padding-left: 150px;
 
-    
 }
 
 .container .hero-text{
     margin-bottom: 40px;
+
 }
 
 .container .hero-text h1{
@@ -311,7 +311,7 @@ span{
     right: 0;
     top: 0;
     background: #1E5128;
-    height: 14%;
+    height: 12%;
     width: 44%;
     z-index: -1;
     transform: translateX(150px);
