@@ -139,6 +139,8 @@ nav .nav-list a:hover{
     justify-items: center;
     padding-top: 15rem;
     padding-left: 150px;
+
+    
 }
 
 .container .hero-text{
@@ -309,7 +311,7 @@ span{
     right: 0;
     top: 0;
     background: #1E5128;
-    height: 20%;
+    height: 14%;
     width: 44%;
     z-index: -1;
     transform: translateX(150px);
@@ -322,12 +324,12 @@ span{
     gap: 1.5rem;
 }*/
 
-#about{
+/*#about{
     background-color: #191A19;
-    /*padding: 100px;*/
+    padding: 100px;
     height: 100vh;
     
-}
+}*/
 
 
 
@@ -407,7 +409,7 @@ text-justify: inter-word;
 .container5{
     width: 100%;
     padding: 30% 10%;
-    padding-top: 5rem;
+    padding-top: 10rem;
     padding-bottom: 1rem;
 }
 
@@ -599,12 +601,13 @@ p{
         margin-bottom: 5px;
         padding-top: 5rem;*/
         background-color: #151615;
+        
 }
 
 .main-text{
     text-align: center;
     padding: 50px;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .main-text h2{
@@ -916,6 +919,7 @@ transition: all .40s ease;
 #contact{
     background-color: #191A19;
     padding: 100px;
+    padding-top: 7rem;
 }
 
 
@@ -1251,7 +1255,7 @@ transition: all .40s ease;
 @media screen and (max-width:600px)
 {
     #resume{
-        padding-top: 25rem;
+        padding-top: 1rem;
     }
 
 }
