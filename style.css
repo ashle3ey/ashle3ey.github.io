@@ -989,8 +989,10 @@ transition: all .40s ease;
     font-size: 20px;
     margin-right: 10px;
     transition: 0.5s;
-    padding-left: 1rem;
+    padding-left: 15px;
     color: #D8E9A8;
+    margin-right: 0.1px;
+    transition: 0.5s;
 }
 
 .row:hover{
